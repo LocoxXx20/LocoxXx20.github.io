@@ -1,0 +1,122 @@
+body {
+    background-color: rgba(154, 209, 140, 0.644);
+    text-align: center;
+}
+
+h1 {
+    color: #e63838;
+}
+
+h2 {
+    color: #000000da;
+}
+
+/*div:hover {
+    background-color: #d4c2b375;
+    text-transform: none;
+}*/
+
+button:hover {
+    font-size: 1.6em;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgb(255, 0, 0);
+
+}
+
+button {
+    font-size: 1.3em;
+    cursor: pointer;
+    border: outset 2px;
+    border-radius: 10px;
+
+
+}
+
+
+input:hover {
+    background-color: #7a9096;
+}
+
+input {
+    font-size: 1.3em;
+    border: double 4px;
+    cursor: auto;
+    border-radius: 10px;
+
+}
+
+.let {
+    text-decoration: underline;
+    text-transform: uppercase;
+    /*border-right: px #365670 dotted;*/
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.ss {
+    font-size: 0.7em;
+}
+
+.foto {
+    font-size: 2em;
+}
+
+.hhh {
+    display: inline-block;
+    font-family: "Kode Mono", monospace;
+}
+
+#main-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    border: 3px outset;
+    border-radius: 20px;
+}
+
+.con {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    padding-bottom: 50px;
+    background: #93df9da4;
+    border: 1px dashed;
+    height: auto;
+    float: left;
+    border: 5px #0b7a11 dotted;
+    border-radius: 20px;
+}
+
+.foto {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    padding-bottom: 50px;
+    background: #93df9da4;
+    border: 1px dashed;
+    height: auto;
+    float: left;
+    border: 5px #0b7a11 dotted;
+    border-radius: 20px;
+
+
+}
+
+
+@keyframes animation {
+    from {
+        opacity: 3;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
